@@ -188,10 +188,22 @@ I'm a tech enthusiast currently focused on mastering **Data Structures**, **Java
 - ☕ I turn coffee into clean code and bugs into features.
 - 🗺️ When not coding, I'm probably exploring new tech trends or gaming.
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Subankar-Dey&label=Profile%20Views&color=blue&style=flat-square" alt="Views" />
-</p>
+---
+<div align="center">
 
+### 🛰️ MASTER_SYSTEM_INTERFACE_ULTIMATE
+
+| <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="1000" height="8" /> |
+| :---: |
+| <br/> ### 🟢 CORE_SYSTEM_STATUS |
+| <img src="https://img.shields.io/badge/SYSTEM_ACTIVE-____________STABLE____________-00FFFF?style=for-the-badge&logo=googlecloud&logoColor=00FFFF&labelColor=1F2328" height="110" /> |
+| <br/> ### 📡 VISITOR_METRICS |
+| <img src="https://komarev.com/ghpvc/?username=Subankar-Dey&label=____________TOTAL_TRAFFIC_LOGGED____________&color=FFD700&style=for-the-badge&logo=googleanalytics&logoColor=1F2328&labelColor=1F2328" height="110" /> |
+| <br/> ### 🔄 LIVE_SYSTEM_HANDSHAKE |
+| <img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_02:46_AM____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328" height="110" /> |
+| <br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="1000" height="8" /> |
+
+</div>
 
 <div align="center">
 
