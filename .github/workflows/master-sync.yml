@@ -1,29 +1,15 @@
-name: Master System Interface Sync
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch: # This adds a manual "Run" button
-
-jobs:
-  update-interface:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Calculate System Pulse
+- name: Calculate System Pulse
         run: |
-          # Generate the time
+          # 1. Generate IST Time
           IST_TIME=$(TZ='Asia/Kolkata' date +'%Y--%m--%d_%I:%M_%p')
           
-          # Define the badge
-          NEW_BADGE="<img src=\"https://img.shields.io/badge/LAST_SYNC-____________${IST_TIME}____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328\" height=\"110\" />"
+          # 2. Define the NEW badge (Notice: NO table pipes here)
+          NEW_BADGE="<img src=\"https://img.shields.io/badge/LAST_SYNC-____________${IST_TIME}____________-00FFFF?style=for-the-badge\&logo=googlesearchconsole\&logoColor=00FFFF\&labelColor=1F2328\" height=\"110\" />"
           
-          # This version of sed is much safer
-          sed -i "s|.*LAST_SYNC.*height=\"110\".*|$NEW_BADGE|" README.md
+          # 3. Precise Replace
+          # We search for the specific <img> tag and swap it out
+          # This ensures the | | table bars remain untouched
+          sed -i "s|<img src=\"https://img.shields.io/badge/LAST_SYNC.*height=\"110\" />|$NEW_BADGE|" README.md
 
       - name: Commit and Push
         run: |
