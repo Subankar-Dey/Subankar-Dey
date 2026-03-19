@@ -1,0 +1,15 @@
+- name: Calculate System Pulse
+  run: |
+    IST_TIME=$(TZ='Asia/Kolkata' date +'%Y--%m--%d_%I:%M_%p')
+
+    SYNC_BADGE="<img src=\"https://img.shields.io/badge/LAST_SYNC-____________${IST_TIME}____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328\" height=\"110\" />"
+
+    sed -i "s|<img src=\"https://img.shields.io/badge/LAST_SYNC.*height=\"110\" />|$SYNC_BADGE|" README.md
+
+- name: Commit and Push Pulse
+  run: |
+    git config --local user.email "action@github.com"
+    git config --local user.name "MASTER_SYSTEM_BOT"
+    git add README.md
+    git commit -m "🛰️ [SYSTEM_PULSE] Metrics Synchronized" || exit 0
+    git push
