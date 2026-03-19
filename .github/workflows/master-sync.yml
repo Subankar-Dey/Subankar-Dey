@@ -1,14 +1,35 @@
-- name: Calculate System Pulse
+name: Master System Interface Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Hourly update
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update-interface:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Gets full history to prevent merge conflicts
+
+      - name: Calculate System Pulse
         run: |
-          # 1. Generate IST Time
+          # 1. Pull latest to avoid conflicts
+          git pull origin main
+          
+          # 2. Generate Time
           IST_TIME=$(TZ='Asia/Kolkata' date +'%Y--%m--%d_%I:%M_%p')
           
-          # 2. Define the NEW badge (Notice: NO table pipes here)
+          # 3. Define Badge (Escaped for safety)
           NEW_BADGE="<img src=\"https://img.shields.io/badge/LAST_SYNC-____________${IST_TIME}____________-00FFFF?style=for-the-badge\&logo=googlesearchconsole\&logoColor=00FFFF\&labelColor=1F2328\" height=\"110\" />"
           
-          # 3. Precise Replace
-          # We search for the specific <img> tag and swap it out
-          # This ensures the | | table bars remain untouched
+          # 4. Precise Replace
           sed -i "s|<img src=\"https://img.shields.io/badge/LAST_SYNC.*height=\"110\" />|$NEW_BADGE|" README.md
 
       - name: Commit and Push
@@ -17,4 +38,4 @@
           git config --local user.name "MASTER_SYSTEM_BOT"
           git add README.md
           git commit -m "🛰️ [SYSTEM_PULSE] Metrics Synchronized" || exit 0
-          git push
+          git push origin main
