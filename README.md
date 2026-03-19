@@ -200,7 +200,7 @@ I'm a tech enthusiast currently focused on mastering **Data Structures**, **Java
 | <br/> ### 📡 VISITOR_METRICS |
 | <img src="https://komarev.com/ghpvc/?username=Subankar-Dey&label=____________TOTAL_TRAFFIC_LOGGED____________&color=FFD700&style=for-the-badge&logo=googleanalytics&logoColor=1F2328&labelColor=1F2328" height="110" /> |
 | <br/> ### 🔄 LIVE_SYSTEM_HANDSHAKE |
-<img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_03:28_AM____________-00FFFF?style=for-the-badge| <img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_03:22_AM____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328" height="110" /> |logo=googlesearchconsole| <img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_03:22_AM____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328" height="110" /> |logoColor=00FFFF| <img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_03:22_AM____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328" height="110" /> |labelColor=1F2328" height="110" />
+<img src="https://img.shields.io/badge/LAST_SYNC-____________2026--03--20_03:32_AM____________-00FFFF?style=for-the-badge&logo=googlesearchconsole&logoColor=00FFFF&labelColor=1F2328" height="110" />
 | <br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="1000" height="8" /> |
 
 </div>
