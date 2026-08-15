@@ -146,15 +146,6 @@ I'm a tech enthusiast currently focused on mastering **Data Structures**, **Java
 
 ---
 
-### 🏆 Achivements
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Subankar-Dey&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="Subankar-Dey Trophies" />
-  </a>
-</p>
-
----
-
 ### 🔭 Currently Working On
 - ⚡ Refining my **Java Data Structures** skills for competitive programming.
 - 🎨 Building a portfolio of high-performance **React** components.
