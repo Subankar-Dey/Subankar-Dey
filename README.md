@@ -126,18 +126,8 @@ I'm a tech enthusiast currently focused on mastering **Data Structures**, **Java
 ### 📊 GitHub Analysis
 
 <table align="center">
+
   <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=Subankar-Dey&show_icons=true&theme=tokyonight&count_private=true&border_radius=10" width="100%"/>
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Subankar-Dey&layout=compact&theme=tokyonight&border_radius=10" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Subankar-Dey&theme=tokyonight&border_radius=10" width="100%"/>
-    </td>
     <td align="center" width="50%">
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Subankar-Dey&layout=compact&theme=tokyonight&border_radius=10" width="100%"/>
     </td>
