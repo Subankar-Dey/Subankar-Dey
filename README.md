@@ -12,14 +12,6 @@
 
 ---
 
-### 📊 CONTRIBUTION_OVERVIEW
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Subankar-Dey&theme=github-compact&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true&bg_color=0D1117" width="100%" />
-
-<code>[►] INITIALIZING_CORE_REPOSITORIES... 100%</code>
-</div>
-
----
-
 
 <div align="center">
 
